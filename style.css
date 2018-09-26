@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+}
+.section {
+	height: 100vh;
+	margin: 0;
+	padding: 100px;
+	scroll-snap-align: start;
+}
+.section1 {
+	background: red;
+}
+.section2 {
+	background: orange;
+}
+.section3 {
+	background: yellow;
+}
